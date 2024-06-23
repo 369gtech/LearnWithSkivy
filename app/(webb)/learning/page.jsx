@@ -23,16 +23,26 @@ const Learning = () => {
     { id: 'Ten', heading: ' Learn With Skivy P1 "Two Letter Spelling Adventure"', title: 'P1 "Two Letter Spelling Adventure"', description: "Press the green flag and then press Learning or Diagraphs to start the lesson.", src: 'https://scratch.mit.edu/projects/992419130/embed' },
     { id: 'Eleven', heading: 'Learn With Skivy P1 "Two Letter Spelling"', title: 'P1 "Two Letter Spelling"', description: "Press the green flag and then press Learning or Diagraphs to start the lesson.", src: 'https://scratch.mit.edu/projects/1013590415/embed' },
     { id: 'Twelve', heading: 'Learn With Skivy P2 "Two Letter Spelling Adventure"', title: 'P2 "Two Letter Spelling Adventure"', description: "Press the green flag and then press Learning or Diagraphs to start the lesson.", src: 'https://scratch.mit.edu/projects/994841793/embed' },
-    { id: 'Thirteen', heading: 'Learn With Skivy  P2 "Two Letter Spelling"', title: 'P2 "Two Letter Spelling"', description: "Press the green flag and then press Learning or Diagraphs to start the lesson.", src: 'https://scratch.mit.edu/projects/1030452781/embed' },
-
+    { id: 'Thirteen', heading: 'Learn With Skivy P2 "Two Letter Spelling"', title: 'P2 "Two Letter Spelling"', description: "Press the green flag and then press Learning or Diagraphs to start the lesson.", src: 'https://scratch.mit.edu/projects/1030452781/embed' },
     // Add more items as needed
   ];
 
   // Accordion data for Section Two
   const accordionDataTwo = [
-    { id: 'One', heading: 'Basic Math Concepts', title: '"Basic Math"', description: "Press the green flag to start the lesson on basic math concepts.", src: 'https://scratch.mit.edu/projects/1012345678/embed' },
-    { id: 'Two', heading: 'Science Basics', title: '"Science Basics"', description: "Press the green flag to start the lesson on basic science concepts.", src: 'https://scratch.mit.edu/projects/1012345679/embed' },
-    { id: 'Three', heading: 'History Overview', title: '"History Overview"', description: "Press the green flag to start the lesson on history basics.", src: 'https://scratch.mit.edu/projects/1012345680/embed' },
+    { id: 'One', heading: 'Learn With Skivy 3.1 CSW "Spelling Adventure', title: '"3.1 CSW "Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023080937/embed' },
+    { id: 'Two', heading: 'Learn With Skivy 3.1 CSW "Spelling Quiz', title: '"3.1 CSW "Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1025386908/embed' },
+    { id: 'Three', heading: 'Learn With Skivy 3.1 CSW "Spelling', title: '"3.1 CSW "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1024637441/embed' },
+    { id: 'Four', heading: 'Learn With Skivy 3.2 CSW "Spelling Adventure', title: '"3.2 CSW "Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023125424/embed' },
+    { id: 'Five', heading: 'Learn With Skivy 3.2 CSW "Spelling Quiz', title: '"3.2 CSW "Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1025636185/embed' },
+    { id: 'Six', heading: 'Learn With Skivy 3.2 CSW "Spelling', title: '"3.2 CSW "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1025366126/embed' },
+    { id: 'Seven', heading: 'Learn With Skivy 3.3 CSW "Spelling Adventure', title: '"3.3 CSW "Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023155126/embed' },
+    { id: 'Eight', heading: 'Learn With Skivy 3.3 CSW "Spelling Quiz', title: '"3.3 CSW "Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1026172923/embed' },
+    { id: 'Nine', heading: 'Learn With Skivy 3.3 CSW "Spelling', title: '"3.3 CSW "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1025372666/embed' },
+    { id: 'Ten', heading: 'Learn With Skivy "Rhyming Words"', title: '"Rhyming Words"', description: "Press the green flag and then press Start Lesson. Move the correct rhyming words into the green blocks and then press next to advance.", src: 'https://scratch.mit.edu/projects/1009757098/embed' },
+    { id: 'Eleven', heading: 'Learn With Skivy Rhyming 1 "Spelling Lesson"', title: 'Rhyming 1 "Spelling Lesson"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1018617643/embed' },
+    { id: 'Twelve', heading: 'Learn With Skivy Rhyming 2 "Spelling Lesson"', title: 'Rhyming 2 "Spelling Lesson"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1020239919/embed' },
+    { id: 'Thirteen', heading: 'Learn With Skivy Rhyming 3 "Spelling Lesson"', title: 'Rhyming 3 "Spelling Lesson"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1020274619/embed' },
+
     // Add more items as needed
   ];
 

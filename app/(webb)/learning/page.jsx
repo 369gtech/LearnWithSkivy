@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import AccordionItem from '././AccordionItem'; // Adjust the path according to your project structure
+import AccordionItem from '../../AccordionItem'; // Adjust the path according to your project structure
 
 const Learning = () => {
   const router = useRouter();
@@ -29,26 +29,25 @@ const Learning = () => {
 
   // Accordion data for Section Two
   const accordionDataTwo = [
-    { id: 'One', heading: 'Learn With Skivy 3.1 Common Sight Words "Three Letter Spelling Adventure"', title: '"3.1 CSW "3L Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023080937/embed' },
-    { id: 'Two', heading: 'Learn With Skivy 3.1 Common Sight Words "Three Letter Spelling Quiz"', title: '"3.1 CSW "3L Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1025386908/embed' },
-    { id: 'Three', heading: 'Learn With Skivy 3.1 Common Sight Words "Three Letter Spelling"', title: '"3.1 CSW "3L Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1024637441/embed' },
-    { id: 'Four', heading: 'Learn With Skivy 3.2 Common Sight Words "Three Letter Spelling Adventure"', title: '"3.2 CSW "3L Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023125424/embed' },
-    { id: 'Five', heading: 'Learn With Skivy 3.2 Common Sight Words "Three Letter Spelling Quiz"', title: '"3.2 CSW "3L Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1025636185/embed' },
-    { id: 'Six', heading: 'Learn With Skivy 3.2 Common Sight Words "Three Letter Spelling"', title: '"3.2 CSW "3L Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1025366126/embed' },
-    { id: 'Seven', heading: 'Learn With Skivy 3.3 Common Sight Words "Three Letter Spelling Adventure"', title: '"3.3 CSW "3L Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023155126/embed' },
-    { id: 'Eight', heading: 'Learn With Skivy 3.3 Common Sight Words "Three Letter Spelling Quiz"', title: '"3.3 CSW "3L Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1026172923/embed' },
-    { id: 'Nine', heading: 'Learn With Skivy 3.3 Common Sight Words "Three Letter Spelling"', title: '"3.3 CSW "3L Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1025372666/embed' },
+    { id: 'One', heading: 'Learn With Skivy 3.1 Common Sight Words "Three Letter Spelling Adventure"', title: '3.1 CSW "3L Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023080937/embed' },
+    { id: 'Two', heading: 'Learn With Skivy 3.1 Common Sight Words "Three Letter Spelling Quiz"', title: '3.1 CSW "3L Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1025386908/embed' },
+    { id: 'Three', heading: 'Learn With Skivy 3.1 Common Sight Words "Three Letter Spelling"', title: '3.1 CSW "3L Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1024637441/embed' },
+    { id: 'Four', heading: 'Learn With Skivy 3.2 Common Sight Words "Three Letter Spelling Adventure"', title: '3.2 CSW "3L Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023125424/embed' },
+    { id: 'Five', heading: 'Learn With Skivy 3.2 Common Sight Words "Three Letter Spelling Quiz"', title: '3.2 CSW "3L Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1025636185/embed' },
+    { id: 'Six', heading: 'Learn With Skivy 3.2 Common Sight Words "Three Letter Spelling"', title: '3.2 CSW "3L Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1025366126/embed' },
+    { id: 'Seven', heading: 'Learn With Skivy 3.3 Common Sight Words "Three Letter Spelling Adventure"', title: '3.3 CSW "3L Spelling Adventure"', description: "Press the green flag and then press Start Lesson. Listen to the word you need to spell, then move the blue letters onto the yellow circles to create the word.", src: 'https://scratch.mit.edu/projects/1023155126/embed' },
+    { id: 'Eight', heading: 'Learn With Skivy 3.3 Common Sight Words "Three Letter Spelling Quiz"', title: '3.3 CSW "3L Spelling Quiz"', description: "Press the green flag and then press Start Lesson. Listen to quiz and choose the correct answer A, B or C to match the sentence that has been said and shown.", src: 'https://scratch.mit.edu/projects/1026172923/embed' },
+    { id: 'Nine', heading: 'Learn With Skivy 3.3 Common Sight Words "Three Letter Spelling"', title: '3.3 CSW "3L Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1025372666/embed' },
     { id: 'Ten', heading: 'Learn With Skivy "Three Letter Rhyming Words"', title: '"3L Rhyming Words"', description: "Press the green flag and then press Start Lesson. Move the correct rhyming words into the green blocks and then press next to advance.", src: 'https://scratch.mit.edu/projects/1009757098/embed' },
     { id: 'Eleven', heading: 'Learn With Skivy Rhyming 1 "Three Letter Spelling Lesson"', title: 'Rhyming 1 "3L Spelling Lesson"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1018617643/embed' },
     { id: 'Twelve', heading: 'Learn With Skivy Rhyming 2 "Three Letter Spelling Lesson"', title: 'Rhyming 2 "3L Spelling Lesson"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1020239919/embed' },
     { id: 'Thirteen', heading: 'Learn With Skivy Rhyming 3 "Three Letter Spelling Lesson"', title: 'Rhyming 3 "3L Spelling Lesson"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson.", src: 'https://scratch.mit.edu/projects/1020274619/embed' },
-
     // Add more items as needed
   ];
 
   // Accordion data for Section Three
   const accordionDataThree = [
-    { id: 'One', heading: 'LWS 4.1 Common Sight Word "Four Letter Spelling Adventure"" ', title: 'LWS 4.1 CSW "4L Spelling Adventure"', description: "Coming Soon.", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
+    { id: 'One', heading: 'LWS 4.1 Common Sight Word "Four Letter Spelling Adventure"', title: 'LWS 4.1 CSW "4L Spelling Adventure"', description: "Coming Soon.", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
     { id: 'Two', heading: 'LWS 4.1 Common Sight Word "Four Letter Spelling Quiz"', title: 'LWS 4.1 CSW "4L Spelling Quiz"', description: "Coming Soon.", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
     { id: 'Three', heading: 'LWS 4.1 Common Sight Word "Four Letter Spelling"', title: 'LWS 4.1 CSW "4L Spelling"', description: "Coming Soon.", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
     { id: 'Four', heading: 'LWS 4.2 Common Sight Word "Four Letter Spelling Adventure"', title: 'LWS 4.2 CSW "4L Spelling Adventure"', description: "Coming Soon.", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
@@ -89,28 +88,26 @@ const Learning = () => {
     { id: 'ThirtyNine', heading: 'LWS 3 "Sentence Structure"', title: '3 "Sentence Structure', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030744211/embed' },
     { id: 'Forty', heading: 'LWS 4 "Sentence Structure"', title: '4 "Sentence Structure', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030747793/embed' },
     { id: 'FortyOne', heading: 'LWS 5 "Sentence Structure"', title: '5 "Sentence Structure', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030921614/embed' },
-
     // Add more items as needed
   ];
 
     // Accordion data for Section Four Learn With Skivy Book Series Challenge
     const accordionDataFour = [
-      { id: 'One', heading: 'Advanced Math Concepts', title: '"Advanced Math"', description: "Press the green flag to start the lesson on advanced math concepts.", src: 'https://scratch.mit.edu/projects/1012345681/embed' },
-      { id: 'Two', heading: 'Physics Basics', title: '"Physics Basics"', description: "Press the green flag to start the lesson on basic physics concepts.", src: 'https://scratch.mit.edu/projects/1012345682/embed' },
-      { id: 'Three', heading: 'Geography Basics', title: '"Geography Basics"', description: "Press the green flag to start the lesson on geography basics.", src: 'https://scratch.mit.edu/projects/1012345683/embed' },
-      { id: 'Four', heading: 'Advanced Math Concepts', title: '"Advanced Math"', description: "Press the green flag to start the lesson on advanced math concepts.", src: 'https://scratch.mit.edu/projects/1012345681/embed' },
-      { id: 'Five', heading: 'Physics Basics', title: '"Physics Basics"', description: "Press the green flag to start the lesson on basic physics concepts.", src: 'https://scratch.mit.edu/projects/1012345682/embed' },
-      { id: 'Six', heading: 'Geography Basics', title: '"Geography Basics"', description: "Press the green flag to start the lesson on geography basics.", src: 'https://scratch.mit.edu/projects/1012345683/embed' },
-      { id: 'Seven', heading: 'Advanced Math Concepts', title: '"Advanced Math"', description: "Press the green flag to start the lesson on advanced math concepts.", src: 'https://scratch.mit.edu/projects/1012345681/embed' },
-      { id: 'Eight', heading: 'Physics Basics', title: '"Physics Basics"', description: "Press the green flag to start the lesson on basic physics concepts.", src: 'https://scratch.mit.edu/projects/1012345682/embed' },
-      { id: 'Nine', heading: 'Geography Basics', title: '"Geography Basics"', description: "Press the green flag to start the lesson on geography basics.", src: 'https://scratch.mit.edu/projects/1012345683/embed' },
-      { id: 'Ten', heading: 'Advanced Math Concepts', title: '"Advanced Math"', description: "Press the green flag to start the lesson on advanced math concepts.", src: 'https://scratch.mit.edu/projects/1012345681/embed' },
-      { id: 'Eleven', heading: 'Physics Basics', title: '"Physics Basics"', description: "Press the green flag to start the lesson on basic physics concepts.", src: 'https://scratch.mit.edu/projects/1012345682/embed' },
-      { id: 'Twelve', heading: 'Geography Basics', title: '"Geography Basics"', description: "Press the green flag to start the lesson on geography basics.", src: 'https://scratch.mit.edu/projects/1012345683/embed' },
-      { id: 'Thirteen', heading: 'Advanced Math Concepts', title: '"Advanced Math"', description: "Press the green flag to start the lesson on advanced math concepts.", src: 'https://scratch.mit.edu/projects/1012345681/embed' },
-      { id: 'Fourteen', heading: 'Physics Basics', title: '"Physics Basics"', description: "Press the green flag to start the lesson on basic physics concepts.", src: 'https://scratch.mit.edu/projects/1012345682/embed' },
-      { id: 'Fifteen', heading: 'Geography Basics', title: '"Geography Basics"', description: "Press the green flag to start the lesson on geography basics.", src: 'https://scratch.mit.edu/projects/1012345683/embed' },
-  
+      { id: 'One', heading: 'Learn With Skivy S1N1 "Spelling"', title: 'S1N1 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1008838423/embed' },
+      { id: 'Two', heading: 'Learn With Skivy S1N2 "Spelling"', title: 'S1N2 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009331416/embed' },
+      { id: 'Three', heading: 'Learn With Skivy S1N3 "Spelling"', title: 'S1N3 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009341404/embed' },
+      { id: 'Four', heading: 'Learn With Skivy S1N4 "Spelling"', title: 'S1N4 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009346294/embed' },
+      { id: 'Five', heading: 'Learn With Skivy S1N5 "Spelling"', title: 'S1N5 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009357595/embed' },
+      { id: 'Six', heading: 'Learn With Skivy S1N6 "Spelling"', title: 'S1N6 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009371773/embed' },
+      { id: 'Seven', heading: 'Learn With Skivy S1N7 "Spelling"', title: 'S1N7 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009378474/embed' },
+      { id: 'Eight', heading: 'Learn With Skivy S1N8 "Spelling"', title: 'S1N8 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/984381139/embed' },
+      { id: 'Nine', heading: 'Learn With Skivy S1N9 "Spelling"', title: 'S1N9 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/988903874/embed' },
+      { id: 'Ten', heading: 'Learn With Skivy S1N10 "Spelling"', title: 'S1N10 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/994671086/embed' },
+      { id: 'Eleven', heading: 'Learn With Skivy 1 "Sentence Structure"', title: '1 "Sentence Structure"', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030515030/embed' },
+      { id: 'Twelve', heading: 'Learn With Skivy 2 "Sentence Structure"', title: '2 "Sentence Structure"', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030741142/embed' },
+      { id: 'Thirteen', heading: 'Learn With Skivy 3 "Sentence Structure"', title: '3 "Sentence Structure"', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030744211/embed' },
+      { id: 'Fourteen', heading: 'Learn With Skivy 4 "Sentence Structure"', title: '4 "Sentence Structure"', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030747793/embed' },
+      { id: 'Fifteen', heading: 'Learn With Skivy 5 "Sentence Structure"', title: '5 "Sentence Structure"', description: "Press the green flag and then press Start Lesson. Listen to the sentence and then move the words onto the yellow boxes to create the correct sentence.", src: 'https://scratch.mit.edu/projects/1030921614/embed' },
       // Add more items as needed
     ];
 
@@ -211,7 +208,7 @@ const Learning = () => {
           <p className="text-center lead mt-4 mb-4">Reading the Learn With Skivy Series where you will be challenged with spelling and grammar.</p>
         </div>
 
-        <div className="accordion w-75" id="accordionPanelsStayOpenExample3">
+        <div className="accordion w-75" id="accordionPanelsStayOpenExample4">
           {accordionDataFour.map((item) => (
             <AccordionItem
               key={item.id}

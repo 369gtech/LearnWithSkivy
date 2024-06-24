@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import AccordionItem from '../../AccordionItem'; // Adjust the path according to your project structure
+import AccordionItem from '././AccordionItem'; // Adjust the path according to your project structure
 
 const Learning = () => {
   const router = useRouter();
@@ -103,10 +103,10 @@ const Learning = () => {
       { id: 'Eight', heading: 'Learn With Skivy S1N8 "Spelling"', title: 'S1N8 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/984381139/embed' },
       { id: 'Nine', heading: 'Learn With Skivy S1N9 "Spelling"', title: 'S1N9 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/988903874/embed' },
       { id: 'Ten', heading: 'Learn With Skivy S1N10 "Spelling"', title: 'S1N10 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/994671086/embed' },
-      { id: 'Eleven', heading: 'Learn With Skivy “Nouns”', title: '“Nouns”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1030515030/embed' },
-      { id: 'Twelve', heading: 'Learn With Skivy “Verbs”', title: '“Verbs”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1030741142/embed' },
-      { id: 'Thirteen', heading: 'Learn With Skivy “Adverbs”', title: '“Adverbs”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1030744211/embed' },
-      { id: 'Fourteen', heading: 'Learn With Skivy “Adjectives”', title: '“Adjectives”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1030747793/embed' },
+      { id: 'Eleven', heading: 'Learn With Skivy “Nouns”', title: '“Nouns”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
+      { id: 'Twelve', heading: 'Learn With Skivy “Verbs”', title: '“Verbs”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
+      { id: 'Thirteen', heading: 'Learn With Skivy “Adverbs”', title: '“Adverbs”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
+      { id: 'Fourteen', heading: 'Learn With Skivy “Adjectives”', title: '“Adjectives”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
       // Add more items as needed
     ];
 

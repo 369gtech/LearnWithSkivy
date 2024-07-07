@@ -141,23 +141,23 @@ const Learning = () => {
 
       <div style={{ display: 'flex', justifyContent: 'space-around', margin: '20px 0' }}>
         <div>
-          <img src="/lwslogo.png" alt="Section One" onClick={() => navigateToSection('accordionDataOne')} />
+          <img src="/lwslogo.png" alt="Section One" onClick={() => navigateToSection('section-one')} />
         </div>
         <div>
-          <img src="/lwslogo.png" alt="Section Two" onClick={() => navigateToSection('accordionDataTwo')} />
+          <img src="/lwslogo.png" alt="Section Two" onClick={() => navigateToSection('section-two')} />
         </div>
         <div>
-          <img src="/lwslogo.png" alt="Section Three" onClick={() => navigateToSection('accordionDataThree')} />
+          <img src="/lwslogo.png" alt="Section Three" onClick={() => navigateToSection('section-three')} />
         </div>
         <div>
-          <img src="/lwslogo.png" alt="Section Four" onClick={() => navigateToSection('accordionDataFour')} />
+          <img src="/lwslogo.png" alt="Section Four" onClick={() => navigateToSection('section-four')} />
         </div>
       </div>
 
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
       {/* Section One */}
-      <div className="row justify-content-evenly">
+      <div className="row justify-content-evenly" id="section-one">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
           <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Building Blocks"</span></h2>
           <p className="text-center lead mt-4 mb-4">The "Building Blocks" are the core, essential skills and knowledge that form the foundation for everything else you'll learn.</p>
@@ -180,7 +180,7 @@ const Learning = () => {
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
       {/* Section Two */}
-      <div className="row justify-content-evenly">
+      <div className="row justify-content-evenly" id="section-two">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
           <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Growing Strong"</span></h2>
           <p className="text-center lead mt-4 mb-4">Building upon the basics to enhance learning.</p>
@@ -203,7 +203,7 @@ const Learning = () => {
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
       {/* Section Three */}
-      <div className="row justify-content-evenly">
+      <div className="row justify-content-evenly" id="section-three">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
           <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Mastering More"</span></h2>
           <p className="text-center lead mt-4 mb-4">Ready for more complex concepts and skills.</p>
@@ -226,7 +226,7 @@ const Learning = () => {
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
       {/* Section Four */}
-      <div className="row justify-content-evenly">
+      <div className="row justify-content-evenly" id="section-four">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
           <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Book Challenge Series"</span></h2>
           <p className="text-center lead mt-4 mb-4">Reading the Learn With Skivy Series where you will be challenged with spelling and grammar.</p>

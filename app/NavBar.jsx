@@ -35,8 +35,8 @@ const NavBar = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div id="navbarNavAltMarkup" className="collapse navbar-collapse justify-content-end">
-          <div className="navbar-nav">
+        <div id="navbarNavAltMarkup" className="collapse navbar-collapse">
+          <div className="navbar-nav ms-auto"> {/* ms-auto added for margin-start auto (moves items to the right) */}
             {navLink.map((link, index) => {
               const isActive = path === link.href;
               return (

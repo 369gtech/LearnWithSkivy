@@ -1,7 +1,7 @@
 @import "bootstrap/dist/css/bootstrap.css";
 
 .bg-transparent-custom {
-  background-color: rgba(255, 255, 255, 0.7); /* Adjust transparency as needed */
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency as needed */
   border-radius: 10px; /* Optional: Add rounded corners */
   padding: 10px; /* Optional: Add padding */
 }

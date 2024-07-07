@@ -14,8 +14,8 @@ const AboutUs = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-med-12 col-sm-12 col-12 mx-auto">
-          <div className={styles.textContainer}> {/* Add a container for the text */}
-            <h1 className="lead fw-bold text-center mt-4 pt-4 mb-3 pb-3 display-1">
+          <div className={styles.textContainer}> 
+            <h1 className="lead fw-bold text-center-primary mt-4 pt-4 mb-3 pb-3 display-1">
               About Us
             </h1>
               <h3 className="text-center mb-3 pb-3 fst-italic">"Our Learning Journey"</h3>

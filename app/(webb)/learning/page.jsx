@@ -139,6 +139,21 @@ const Learning = () => {
         </div>
       </div>
 
+      <div style={{ display: 'flex', justifyContent: 'space-around', margin: '20px 0' }}>
+        <div>
+          <img src="/lwslogo.png" alt="Section One" onClick={() => navigateToSection('sectionOne')} />
+        </div>
+        <div>
+          <img src="/lwslogo.png" alt="Section Two" onClick={() => navigateToSection('sectionTwo')} />
+        </div>
+        <div>
+          <img src="/lwslogo.png" alt="Section Three" onClick={() => navigateToSection('sectionThree')} />
+        </div>
+        <div>
+          <img src="/lwslogo.png" alt="Section Four" onClick={() => navigateToSection('sectionFour')} />
+        </div>
+      </div>
+
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
       {/* Section One */}

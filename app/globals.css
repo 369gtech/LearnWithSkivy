@@ -5,3 +5,36 @@
   border-radius: 10px; /* Optional: Add rounded corners */
   padding: 10px; /* Optional: Add padding */
 }
+
+.image-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+#image1,
+#image2,
+#image3,
+#image4 {
+  cursor: pointer;
+  width: 22%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .image-navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #image1,
+  #image2,
+  #image3,
+  #image4 {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+}
+

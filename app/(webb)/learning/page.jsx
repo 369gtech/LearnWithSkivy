@@ -139,19 +139,31 @@ const Learning = () => {
         </div>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'space-around', margin: '20px 0' }}>
-        <div>
-          <img src="/lwslogo.png" alt="Section One" onClick={() => navigateToSection('section-one')} />
-        </div>
-        <div>
-          <img src="/lwslogo.png" alt="Section Two" onClick={() => navigateToSection('section-two')} />
-        </div>
-        <div>
-          <img src="/lwslogo.png" alt="Section Three" onClick={() => navigateToSection('section-three')} />
-        </div>
-        <div>
-          <img src="/lwslogo.png" alt="Section Four" onClick={() => navigateToSection('section-four')} />
-        </div>
+      <div className="image-navigation">
+        <img
+          id="image1"
+          src="/lwslogo.png"
+          alt="Section One"
+          onClick={() => navigateToSection('section-one')}
+        />
+        <img
+          id="image2"
+          src="/lwslogo.png"
+          alt="Section Two"
+          onClick={() => navigateToSection('section-two')}
+        />
+        <img
+          id="image3"
+          src="/lwslogo.png"
+          alt="Section Three"
+          onClick={() => navigateToSection('section-three')}
+        />
+        <img
+          id="image4"
+          src="/lwslogo.png"
+          alt="Section Four"
+          onClick={() => navigateToSection('section-four')}
+        />
       </div>
 
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />

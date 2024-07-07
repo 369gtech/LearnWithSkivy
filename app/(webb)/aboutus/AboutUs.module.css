@@ -1,0 +1,11 @@
+.banner {
+  background-image: url('/lwskivy/public/AboutPage.png'); /* Replace with your image filename */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

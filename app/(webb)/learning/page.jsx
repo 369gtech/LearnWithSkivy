@@ -8,6 +8,13 @@ const Learning = () => {
   const openContactUs = () => {
     router.push("/contactus");
   };
+  
+  const navigateToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   // Accordion data for Section One
   const accordionDataOne = [
@@ -103,16 +110,16 @@ const Learning = () => {
 
     // Accordion data for Section Four Learn With Skivy Book Series Challenge
     const accordionDataFour = [
-      { id: 'One', heading: 'LWS S1N1 "Spelling"', title: 'S1N1 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1008838423/embed' },
-      { id: 'Two', heading: 'LWS S1N2 "Spelling"', title: 'S1N2 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009331416/embed' },
-      { id: 'Three', heading: 'LWS S1N3 "Spelling"', title: 'S1N3 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009341404/embed' },
-      { id: 'Four', heading: 'LWS S1N4 "Spelling"', title: 'S1N4 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009346294/embed' },
-      { id: 'Five', heading: 'LWS S1N5 "Spelling"', title: 'S1N5 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009357595/embed' },
-      { id: 'Six', heading: 'LWS S1N6 "Spelling"', title: 'S1N6 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009371773/embed' },
-      { id: 'Seven', heading: 'LWS S1N7 "Spelling"', title: 'S1N7 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009378474/embed' },
-      { id: 'Eight', heading: 'LWS S1N8 "Spelling"', title: 'S1N8 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/984381139/embed' },
-      { id: 'Nine', heading: 'LWS S1N9 "Spelling"', title: 'S1N9 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/988903874/embed' },
-      { id: 'Ten', heading: 'LWS S1N10 "Spelling"', title: 'S1N10 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/994671086/embed' },
+      { id: 'One', heading: 'LWS S1N1 "Spelling"', title: 'S1N1 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1008838423/embed', pdfUrl: '/1lws.pdf' },
+      { id: 'Two', heading: 'LWS S1N2 "Spelling"', title: 'S1N2 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009331416/embed', pdfUrl: '/2lws.pdf' },
+      { id: 'Three', heading: 'LWS S1N3 "Spelling"', title: 'S1N3 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009341404/embed', pdfUrl: '/3lws.pdf' },
+      { id: 'Four', heading: 'LWS S1N4 "Spelling"', title: 'S1N4 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009346294/embed', pdfUrl: '/4lws.pdf' },
+      { id: 'Five', heading: 'LWS S1N5 "Spelling"', title: 'S1N5 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009357595/embed', pdfUrl: '/5lws.pdf' },
+      { id: 'Six', heading: 'LWS S1N6 "Spelling"', title: 'S1N6 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009371773/embed', pdfUrl: '/6lws.pdf' },
+      { id: 'Seven', heading: 'LWS S1N7 "Spelling"', title: 'S1N7 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/1009378474/embed', pdfUrl: '/7lws.pdf' },
+      { id: 'Eight', heading: 'LWS S1N8 "Spelling"', title: 'S1N8 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/984381139/embed', pdfUrl: '/8lws.pdf' },
+      { id: 'Nine', heading: 'LWS S1N9 "Spelling"', title: 'S1N9 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/988903874/embed', pdfUrl: '/9lws.pdf' },
+      { id: 'Ten', heading: 'LWS S1N10 "Spelling"', title: 'S1N10 "Spelling"', description: "Press the green flag and then press Start Lesson to begin the spelling lesson. This lesson is apart of the Skivy Book Series.", src: 'https://scratch.mit.edu/projects/994671086/embed', pdfUrl: '/10lws.pdf' },
       { id: 'Eleven', heading: 'LWS “Nouns” - "Coming Soon"', title: '“Nouns”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
       { id: 'Twelve', heading: 'LWS “Verbs” - "Coming Soon"', title: '“Verbs”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
       { id: 'Thirteen', heading: 'LWS “Adverbs” - "Coming Soon"', title: '“Adverbs”', description: "Coming Soon", src: 'https://scratch.mit.edu/projects/1041055559/embed' },
@@ -140,27 +147,30 @@ const Learning = () => {
       </div>
 
       <div className="image-navigation">
-        <img
-          id="image1"
-          src="/lwslogo.png"
-          alt="Section One"
-          onClick={() => navigateToSection('section-one')}
-        />
+      <img
+      id="image1"
+      src="/1BB.png"
+      alt="Section One"
+      onClick={() => {
+        console.log('Clicked image 1');
+        navigateToSection('section-one');
+      }}
+    />
         <img
           id="image2"
-          src="/lwslogo.png"
+          src="/2GS.png"
           alt="Section Two"
           onClick={() => navigateToSection('section-two')}
         />
         <img
           id="image3"
-          src="/lwslogo.png"
+          src="/3MM.png"
           alt="Section Three"
           onClick={() => navigateToSection('section-three')}
         />
         <img
           id="image4"
-          src="/lwslogo.png"
+          src="/4BC.png"
           alt="Section Four"
           onClick={() => navigateToSection('section-four')}
         />
@@ -168,11 +178,15 @@ const Learning = () => {
 
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
-      {/* Section One */}
-      <div className="row justify-content-evenly" id="section-one">
+
+      <div id="section-one">
+      <div className="row justify-content-evenly">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
-          <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Building Blocks"</span></h2>
-          <p className="text-center lead mt-4 mb-4">The "Building Blocks" are the core, essential skills and knowledge that form the foundation for everything else you'll learn.</p>
+        <h2 className="text-center featurette-heading fw-bold lh-1">
+        <img src="/1BB.png" alt="Image Alt Text" style={{ width: '100px', marginRight: '20px' }} />
+        Learn With Skivy <span className="text-muted fw-normal">"Building Blocks"</span>
+        </h2>
+        <p className="text-center lead mt-4 mb-4">The "Building Blocks" are the core, essential skills and knowledge that form the foundation for everything else you'll learn.</p>
         </div>
 
         <div className="accordion w-75" id="accordionPanelsStayOpenExample">
@@ -188,13 +202,18 @@ const Learning = () => {
           ))}
         </div>
       </div>
+      </div>
+
 
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
-      {/* Section Two */}
+      <div id="section-two">
       <div className="row justify-content-evenly" id="section-two">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
-          <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Growing Strong"</span></h2>
+          <h2 className="text-center featurette-heading fw-bold lh-1">
+          <img src="/2GS.png" alt="Image Alt Text" style={{ width: '100px', marginRight: '20px' }} />
+          Learn With Skivy <span className="text-muted fw-normal">"Growing Strong"</span>
+          </h2>
           <p className="text-center lead mt-4 mb-4">Building upon the basics to enhance learning.</p>
         </div>
 
@@ -211,13 +230,18 @@ const Learning = () => {
           ))}
         </div>
       </div>
+      </div>
+
 
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
-      {/* Section Three */}
+      <div id="section-three">
       <div className="row justify-content-evenly" id="section-three">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
-          <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Mastering More"</span></h2>
+          <h2 className="text-center featurette-heading fw-bold lh-1">
+          <img src="/3MM.png" alt="Image Alt Text" style={{ width: '100px', marginRight: '20px' }} />
+          Learn With Skivy <span className="text-muted fw-normal">"Mastering More"</span>
+          </h2>
           <p className="text-center lead mt-4 mb-4">Ready for more complex concepts and skills.</p>
         </div>
 
@@ -234,13 +258,18 @@ const Learning = () => {
           ))}
         </div>
       </div>
+      </div>
+
 
       <hr className="featurette-divider mt-5 pt-1 mb-5" style={{ width: '80%', margin: '0 auto', backgroundColor: '#000', height: '2px' }} />
 
-      {/* Section Four */}
+      <div id="section-four">
       <div className="row justify-content-evenly" id="section-four">
         <div className="col-lg-8 col-med-10 col-sm-12 mx-auto">
-          <h2 className="text-center featurette-heading fw-bold lh-1">Learn With Skivy <span className="text-muted fw-normal">"Book Challenge Series"</span></h2>
+          <h2 className="text-center featurette-heading fw-bold lh-1">
+          <img src="/4BC.png" alt="Image Alt Text" style={{ width: '100px', marginRight: '20px' }} />
+          Learn With Skivy <span className="text-muted fw-normal">"Book Challenges"</span>
+          </h2>
           <p className="text-center lead mt-4 mb-4">Reading the Learn With Skivy Series where you will be challenged with spelling and grammar.</p>
         </div>
 
@@ -252,11 +281,14 @@ const Learning = () => {
               heading={item.heading}
               title={item.title}
               description={item.description}
+              pdfUrl={item.pdfUrl}
               src={item.src}
             />
           ))}
         </div>
       </div>
+      </div>
+      
 
     </div>
   );

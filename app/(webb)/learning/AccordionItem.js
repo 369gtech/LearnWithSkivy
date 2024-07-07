@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const AccordionItem = ({ id, heading, title, description, src }) => {
+const AccordionItem = ({ id, heading, title, description, src, pdfUrl }) => {
   const [isIframeLoaded, setIframeLoaded] = useState(false);
 
   const handleToggle = () => {
@@ -34,6 +34,11 @@ const AccordionItem = ({ id, heading, title, description, src }) => {
                 Learn With Skivy <span className="text-muted fw-normal">{title}</span>
               </h2>
               <p className="lead">{description}</p>
+              <div className="text-center mt-4 mb-4">
+                <a href={pdfUrl} download className="btn btn-primary">
+                  Download Book PDF
+                </a>
+              </div>
             </div>
             <div className="col-12 d-flex justify-content-center">
               {isIframeLoaded && (

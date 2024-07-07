@@ -1,5 +1,16 @@
 @import "bootstrap/dist/css/bootstrap.css";
 
+body {
+  font-family: 'Inter', sans-serif; /* Example: Apply Inter font globally */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-text-color {
+  color: #CD7F32;
+}
+
 .bg-transparent-custom {
   background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency as needed */
   border-radius: 10px; /* Optional: Add rounded corners */

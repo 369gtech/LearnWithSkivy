@@ -141,16 +141,16 @@ const Learning = () => {
 
       <div style={{ display: 'flex', justifyContent: 'space-around', margin: '20px 0' }}>
         <div>
-          <img src="/lwslogo.png" alt="Section One" onClick={() => navigateToSection('sectionOne')} />
+          <img src="/lwslogo.png" alt="Section One" onClick={() => navigateToSection('accordionDataOne')} />
         </div>
         <div>
-          <img src="/lwslogo.png" alt="Section Two" onClick={() => navigateToSection('sectionTwo')} />
+          <img src="/lwslogo.png" alt="Section Two" onClick={() => navigateToSection('accordionDataTwo')} />
         </div>
         <div>
-          <img src="/lwslogo.png" alt="Section Three" onClick={() => navigateToSection('sectionThree')} />
+          <img src="/lwslogo.png" alt="Section Three" onClick={() => navigateToSection('accordionDataThree')} />
         </div>
         <div>
-          <img src="/lwslogo.png" alt="Section Four" onClick={() => navigateToSection('sectionFour')} />
+          <img src="/lwslogo.png" alt="Section Four" onClick={() => navigateToSection('accordionDataFour')} />
         </div>
       </div>
 

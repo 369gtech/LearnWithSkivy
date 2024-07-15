@@ -34,11 +34,13 @@ const AccordionItem = ({ id, heading, title, description, src, pdfUrl }) => {
                 Learn With Skivy <span className="text-muted fw-normal">{title}</span>
               </h2>
               <p className="lead">{description}</p>
-              <div className="text-center mt-4 mb-4">
-                <a href={pdfUrl} download className="btn btn-primary">
-                  Download Book PDF
-                </a>
-              </div>
+              {pdfUrl && (
+                <div className="text-center mt-4 mb-4">
+                  <a href={pdfUrl} download className="btn btn-primary">
+                    Download PDF
+                  </a>
+                </div>
+              )}
             </div>
             <div className="col-12 d-flex justify-content-center">
               {isIframeLoaded && (
